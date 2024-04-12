@@ -19,7 +19,7 @@ Options:
   --cpu       Number of parallel CPU workers to use hmmsearch for multithreads. Default is 1.  
   --help      Show this help message.
 ### Output file
-
+*Gene*_hmmsearch_out.txt
 ## 2.Phylogenetic_tree_build.sh
 ### Software
 Clustal Omega  
@@ -50,3 +50,18 @@ bash 3.SBA_priduction_gene_identification.sh [--gene name] [--query_type nucl/pr
   --thread      Number of threads (CPUs) to use in the BLAST search. Default is 1.  
   --help        Show this help message.
 ### Output file
+*Gene*_blast_out.txt  
+| colume | explaination |
+|---------|---------|
+|    1   | Query Accesion |
+|    2   | Subject accession |
+|    3   | Percentage of identical matches |  
+|    4   | Alignment length |  
+|    5   | Number of mismatches |  
+|    6   | Number of gap openings |  
+|    7   | Start of alignment in query |  
+|    8   | End of alignment in query |  
+|    9   | Start of alignment in subject |  
+|    10  | End of alignment in subject |
+|    11  | Expect value |  
+|    12  | Bit score |
