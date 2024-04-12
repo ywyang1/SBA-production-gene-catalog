@@ -35,6 +35,8 @@ Options:
   --thread    Number of cores/threads for iqtree. Default is 1.  
   --help      Show this help message.
 ### Output file
+*Gene*.phy.contree  
+The consensus tree with assigned branch supports where branch lengths are optimized on the original alignment
 ## 3.SBA_priduction_gene_identification.sh
 ### Software
 BLAST
