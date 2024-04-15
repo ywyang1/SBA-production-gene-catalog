@@ -54,7 +54,7 @@ bash 3.SBA_priduction_gene_identification.sh [--gene name] [--query_type nucl/pr
   --help        Show this help message.
 ### Output file
 *Gene*_blast_out.txt  
-| Colume | Explaination |
+| Column | Explaination |
 |---------|---------|
 |    1   | Query Accesion |
 |    2   | Subject accession |
