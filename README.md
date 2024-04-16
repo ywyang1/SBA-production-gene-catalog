@@ -1,6 +1,9 @@
 # Data
 ## Non-redundant protein sequences of the SBA production gene catalog
 ## Species distribution of the SBA production gene catalog.csv
+## Habitat distribution of the SBA production gene catalog.csv
+### Seeds sequence for HMMs construction
+### RefSeq genomes used for hmmsearch.csv
 # Scripts
 ## 1.SBA_production_gene_HMM.sh
 ### Software
